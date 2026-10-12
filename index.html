@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="International Development Assistance (IDA) — A philanthropic initiative providing financial support to eligible individuals and families. Creating Opportunities. Supporting Lives.">
+  <meta name="keywords"
+    content="IDA, International Development Assistance, financial assistance, grants, philanthropy, opportunity">
+  <title>IDA — International Development Assistance | Creating Opportunities. Supporting Lives.</title>
+
+  <!-- Favicon (gold badge) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23b8860b'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='18' fill='%23ffffff'>I</text></svg>">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="nav" id="main-nav">
+    <div class="container">
+      <a href="#" class="nav-logo" id="nav-logo">
+        <span class="logo-mark">I</span>
+        IDA
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#eligibility" id="nav-eligibility">Eligibility</a></li>
+        <li><a href="#assistance" id="nav-assistance">Assistance</a></li>
+        <li><a href="#mission" id="nav-mission">Mission & Vision</a></li>
+        <li><a href="#contact" class="nav-cta" id="nav-contact">Contact Us</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero.jpg" alt="Diverse community members looking forward with hope" width="1920" height="1080"
+        fetchpriority="high">
+    </div>
+
+    <!-- Animated floating particles -->
+    <div class="hero-particles" id="hero-particles" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <span class="pulse"></span>
+          Now Accepting Inquiries & Applications
+        </div>
+
+        <h1 class="reveal reveal-delay-1">
+          Creating <span class="highlight">Opportunities.</span><br>
+          Supporting Lives.
+        </h1>
+
+        <p class="hero-description reveal reveal-delay-2">
+          The International Development Assistance (IDA) program is a philanthropic initiative intended to provide
+          financial support to eligible individuals and families facing financial challenges.
+        </p>
+
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#contact" class="btn-primary" id="hero-cta">
+            Contact An Agent
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+          <a href="#about" class="btn-secondary" id="hero-learn-more">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" width="18" height="18">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="hero-stats reveal reveal-delay-4">
+          <div class="hero-stat">
+            <div class="number">$25,000+</div>
+            <div class="label">Starting Assistance</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">6</div>
+            <div class="label">Eligible Categories</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">100%</div>
+            <div class="label">Philanthropic Initiative</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-label reveal">About IDA</span>
+          <h2 class="section-title reveal reveal-delay-1">Empowering Communities Through Financial Support</h2>
+          <p class="reveal reveal-delay-2">
+            The International Development Assistance (IDA) program is a philanthropic initiative intended to provide
+            financial support to eligible individuals and families facing financial challenges.
+          </p>
+          <p class="reveal reveal-delay-3">
+            Through targeted assistance, IDA empowers recipients to navigate hardships, pursue lifelong goals, and build
+            sustainable futures for themselves and their communities.
+          </p>
+        </div>
+
+        <div class="about-features reveal reveal-delay-2">
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+            </div>
+            <div>
+              <h4>Financial Relief</h4>
+              <p>Direct assistance starting at $25,000 for qualifying applicants</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <div>
+              <h4>Educational Growth</h4>
+              <p>Funding academic pursuits, tuition, and specialized training</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+              </svg>
+            </div>
+            <div>
+              <h4>Business Development</h4>
+              <p>Supporting entrepreneurs to scale and create local jobs</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+              </svg>
+            </div>
+            <div>
+              <h4>Livelihood Improvement</h4>
+              <p>Enhancing quality of life and fostering self-sufficiency</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ELIGIBILITY ============ -->
+  <section class="eligibility" id="eligibility">
+    <div class="container">
+      <div class="eligibility-header">
+        <span class="section-label reveal">Who Can Qualify?</span>
+        <h2 class="section-title reveal reveal-delay-1">Inclusive Support for Every Journey</h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          The initiative aims to support people from different walks of life, providing resources to help navigate
+          financial challenges.
+        </p>
+      </div>
+
+      <div class="eligibility-grid">
+        <!-- Card 1 -->
+        <div class="eligibility-card reveal reveal-delay-1" id="card-families">
+          <div class="eligibility-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+            </svg>
+          </div>
+          <h3>Low-Income Families</h3>
+          <p>Families working to overcome economic hardship, manage essential living costs, and establish stable
+            households.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="eligibility-card reveal reveal-delay-2" id="card-entrepreneurs">
+          <div class="eligibility-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+            </svg>
+          </div>
+          <h3>Entrepreneurs</h3>
+          <p>Driven innovators seeking initial capital or resources to establish, sustain, or expand business
+            initiatives.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="eligibility-card reveal reveal-delay-3" id="card-students">
+          <div class="eligibility-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+            </svg>
+          </div>
+          <h3>College Students</h3>
+          <p>Undergraduate and graduate students striving to complete degrees without the burden of overwhelming
+            expenses.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="eligibility-card reveal reveal-delay-4" id="card-retirees">
+          <div class="eligibility-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+          </div>
+          <h3>Retirees</h3>
+          <p>Retired individuals on fixed incomes needing supplementary assistance to maintain dignified living
+            standards.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="eligibility-card reveal reveal-delay-5" id="card-seniors">
+          <div class="eligibility-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+          </div>
+          <h3>Senior Citizens</h3>
+          <p>Elderly community members requiring financial peace of mind for healthcare, wellness, and everyday living.
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="eligibility-card reveal reveal-delay-6" id="card-disabilities">
+          <div class="eligibility-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </div>
+          <h3>Individuals with Disabilities</h3>
+          <p>Individuals facing physical or cognitive challenges, supported with aid to foster independent, fulfilling
+            lives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINANCIAL ASSISTANCE ============ -->
+  <section class="assistance" id="assistance">
+    <div class="container">
+      <div class="assistance-content">
+        <div>
+          <span class="section-label reveal">Assistance Overview</span>
+          <h2 class="section-title reveal reveal-delay-1">Potential Financial Assistance</h2>
+          <p class="section-subtitle reveal reveal-delay-2" style="margin-bottom: var(--space-2xl);">
+            According to the program’s description, qualified applicants may be eligible for financial assistance
+            starting at $25,000, with higher amounts depending on eligibility and the program’s terms.
+          </p>
+
+          <ul class="assistance-list reveal reveal-delay-3">
+            <li>
+              <span class="check">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+              </span>
+              <span><strong>Manage essential expenses:</strong> Housing, utilities, medical care, and food
+                security.</span>
+            </li>
+            <li>
+              <span class="check">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+              </span>
+              <span><strong>Pursue education:</strong> Tuition fees, certifications, research materials, and
+                equipment.</span>
+            </li>
+            <li>
+              <span class="check">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+              </span>
+              <span><strong>Develop businesses:</strong> Seed funding, equipment purchases, inventory, and
+                marketing.</span>
+            </li>
+            <li>
+              <span class="check">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+              </span>
+              <span><strong>Improve livelihoods:</strong> Achieving lasting stability, self-reliance, and
+                well-being.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="assistance-highlight reveal reveal-delay-2">
+          <div class="assistance-highlight-inner">
+            <div class="assistance-amount">$25,000+</div>
+            <div class="assistance-amount-label">Starting Financial Assistance</div>
+            <p style="margin-top: var(--space-xl); font-size: 0.95rem; color: var(--gray-600); line-height: 1.7;">
+              Qualified applicants may be eligible for higher amounts based on specific eligibility assessments and
+              program terms.
+            </p>
+            <div style="margin-top: var(--space-xl);">
+              <a href="#contact" class="btn-primary" style="width: 100%; justify-content: center;">
+                Inquire Today
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MISSION & VISION ============ -->
+  <section class="mission-vision" id="mission">
+    <div class="container">
+      <div class="eligibility-header">
+        <span class="section-label reveal">Core Values</span>
+        <h2 class="section-title reveal reveal-delay-1">Our Mission & Vision</h2>
+      </div>
+
+      <div class="mv-grid">
+        <div class="mv-card reveal reveal-delay-1">
+          <div class="mv-card-header">
+            <div class="mv-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5" />
+              </svg>
+            </div>
+            <h3>Our Mission</h3>
+          </div>
+          <p>
+            IDA’s stated mission is to encourage community development, support education, provide emergency assistance,
+            reduce poverty, and help individuals achieve greater financial stability.
+          </p>
+        </div>
+
+        <div class="mv-card reveal reveal-delay-2">
+          <div class="mv-card-header">
+            <div class="mv-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg>
+            </div>
+            <h3>Our Vision</h3>
+          </div>
+          <p>
+            The vision behind IDA is to promote compassion, opportunity, and support for people who need assistance. Our
+            stated purpose is to encourage a future where financial difficulties do not prevent individuals and families
+            from pursuing a better life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-header">
+        <span class="section-label reveal">Get in Touch</span>
+        <h2 class="section-title reveal reveal-delay-1">Contact Us</h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Reach out directly to learn more about the program and discuss your eligibility.
+        </p>
+      </div>
+
+      <div class="contact-grid single-agent">
+        <!-- Single Agent Card with 2 emails -->
+        <div class="contact-card reveal reveal-delay-1" id="contact-agent">
+          <img src="images/agent1.jpg" alt="Agent Sheinetta Bell" class="contact-card-photo" width="140" height="140"
+            loading="lazy">
+          <h3>Agent Sheinetta Bell</h3>
+          <div class="role">Program Agent &mdash; International Development Assistance</div>
+          <div class="contact-emails">
+            <a href="mailto:Agentsheinettabell@gmail.com" class="email-link" id="email-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              Agentsheinettabell@gmail.com
+            </a>
+            <a href="mailto:Agentsheinettabell91@gmail.com" class="email-link" id="email-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              Agentsheinettabell91@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <span class="logo-mark">I</span>
+        International Development Assistance (IDA)
+      </div>
+      <p class="footer-copy">&copy; 2026 IDA. Creating Opportunities. Supporting Lives. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    // ---- Navbar scroll effect ----
+    const nav = document.getElementById('main-nav');
+    const onScroll = () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // ---- Mobile menu toggle ----
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    if (toggle && links) {
+      toggle.addEventListener('click', () => {
+        links.classList.toggle('open');
+        const spans = toggle.querySelectorAll('span');
+        if (links.classList.contains('open')) {
+          spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+          spans[1].style.opacity = '0';
+          spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+        } else {
+          spans[0].style.transform = '';
+          spans[1].style.opacity = '';
+          spans[2].style.transform = '';
+        }
+      });
+
+      // Close mobile menu on link click
+      links.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          links.classList.remove('open');
+          const spans = toggle.querySelectorAll('span');
+          spans[0].style.transform = '';
+          spans[1].style.opacity = '';
+          spans[2].style.transform = '';
+        });
+      });
+    }
+
+    // ---- Scroll reveal (Intersection Observer) ----
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // ---- Floating particles in hero ----
+    const particleContainer = document.getElementById('hero-particles');
+    if (particleContainer) {
+      for (let i = 0; i < 30; i++) {
+        const dot = document.createElement('div');
+        dot.classList.add('dot');
+        dot.style.left = Math.random() * 100 + '%';
+        dot.style.top = Math.random() * 100 + '%';
+        dot.style.animationDelay = Math.random() * 8 + 's';
+        dot.style.animationDuration = (6 + Math.random() * 6) + 's';
+        particleContainer.appendChild(dot);
+      }
+    }
+
+    // ---- Smooth scroll for anchor links ----
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId !== '#') {
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
